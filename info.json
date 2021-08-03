@@ -1,0 +1,19 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Phuong",
+      "role": "Leader"
+    },
+    {
+      "id": 2,
+      "name": "Sinh",
+      "role": "Dev"
+    },
+    {
+      "id": 3,
+      "name": "Hoang",
+      "role": "Dev"
+    }
+  ]
+}

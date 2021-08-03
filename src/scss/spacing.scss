@@ -1,0 +1,65 @@
+$base-step-space: 5;
+$max-step-space: 20;
+
+@for $i from 1 through $max-step-space {
+  .u-mt-#{$i * $base-step-space} {
+    margin-top: #{$i * $base-step-space}px;
+  }
+
+  .u-mb-#{$i * $base-step-space} {
+    margin-bottom: #{$i * $base-step-space}px;
+  }
+
+  .u-mr-#{$i * $base-step-space} {
+    margin-right: #{$i * $base-step-space}px;
+  }
+
+  .u-ml-#{$i * $base-step-space} {
+    margin-left: #{$i * $base-step-space}px;
+  }
+
+  .u-mx-#{$i * $base-step-space} {
+    margin-left: #{$i * $base-step-space}px;
+    margin-right: #{$i * $base-step-space}px;
+  }
+
+  .u-my-#{$i * $base-step-space} {
+    margin-top: #{$i * $base-step-space}px;
+    margin-bottom: #{$i * $base-step-space}px;
+  }
+
+  .u-ma-#{$i * $base-step-space} {
+    margin: #{$i * $base-step-space}px;
+  }
+
+  .u-pt-#{$i * $base-step-space} {
+    padding-top: #{$i * $base-step-space}px;
+  }
+
+  .u-pb-#{$i * $base-step-space} {
+    padding-bottom: #{$i * $base-step-space}px;
+  }
+
+  .u-pr-#{$i * $base-step-space} {
+    padding-right: #{$i * $base-step-space}px;
+  }
+
+  .u-pl-#{$i * $base-step-space} {
+    padding-left: #{$i * $base-step-space}px;
+  }
+
+  .u-px-#{$i * $base-step-space} {
+    padding-left: #{$i * $base-step-space}px;
+    padding-right: #{$i * $base-step-space}px;
+  }
+
+  .u-py-#{$i * $base-step-space} {
+    padding-top: #{$i * $base-step-space}px;
+    padding-bottom: #{$i * $base-step-space}px;
+  }
+
+  .u-pa-#{$i * $base-step-space} {
+    padding: #{$i * $base-step-space}px;
+  }
+
+}
